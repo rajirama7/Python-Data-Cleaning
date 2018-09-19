@@ -1,1 +1,0 @@
-print 'cd'.partition('cd')
