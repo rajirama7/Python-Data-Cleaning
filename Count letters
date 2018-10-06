@@ -1,0 +1,5 @@
+s=""Remember that the happiest people are not those getting more, but those giving more.""
+count=0
+for i in s:
+    count=count+1
+print(count)
