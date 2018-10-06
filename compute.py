@@ -1,3 +1,5 @@
+#print n+nn+nnn+....
+
 x=eval(input("Enter a number:"))
 y=str(x)
 #i=" "
