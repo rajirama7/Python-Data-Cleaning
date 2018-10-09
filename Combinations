@@ -1,0 +1,13 @@
+#print possible combinations of 3 digits
+first=eval(input("Enter the number:"))
+second=eval(input("Enter the number:"))
+third=eval(input("Enter the number:"))
+a=[]
+a.append(first)
+a.append(second)
+a.append(third)
+for i in range(0,3):
+    for j in range(0,3):
+        for k in range(0,3):
+            if(i!=j&j!=k&k!=i):
+                print(a[i],a[j],a[k])
