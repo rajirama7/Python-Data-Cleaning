@@ -1,0 +1,8 @@
+#Reverse number
+x=eval(input("Enter the number to be reversed:"))
+reverse=0
+while (x>0):
+    number=x%10
+    reverse=reverse*10+number
+    x=x//10
+print("Reversed number is:",reverse)  
