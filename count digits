@@ -1,0 +1,9 @@
+#count number of digits in a number
+x=eval(input("Enter the number:"))
+y=0
+count=0
+while x>0:
+    y=x%10
+    count=count+1
+    x=x//10
+print(count)
