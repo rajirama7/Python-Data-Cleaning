@@ -1,0 +1,9 @@
+#program to print the starting and ending number and the divisor and output is the numbers divisible by the divisor
+a=[]
+starting=eval(input("Enter the starting number:"))
+ending=eval(input("Enter the ending number:"))
+divisor=eval(input("Enter the divisor:"))
+for i in range(starting,ending+1):
+    if (i%divisor==0):
+        a.append(i)
+print(a)
