@@ -1,0 +1,9 @@
+#print odd numbers in a given range
+
+lowerlimit=eval(input("Enter the number:"))
+upperlimit=eval(input("Enter the number:"))
+a=[]
+for i in range(lowerlimit,upperlimit):
+    if i%2==1 :
+        a.append(i)
+print(a)
