@@ -1,0 +1,13 @@
+#Check if palindrome
+
+x=eval(input("Enter the number:"))
+num=x
+reverse=0
+while x>0:
+    y=x%10
+    reverse=reverse*10+y
+    x=x//10
+if (num==reverse):
+    print("The number is a palindrome")
+else:
+    print("The number is not a palindrome")
